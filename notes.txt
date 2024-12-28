@@ -1,0 +1,10 @@
+{
+    "httpMethod": "POST",
+    "body": "{\"id\": \"0\", \"name\": \"goku\"}",
+    "headers": {
+        "Content-Type": "application/json"
+    }
+}
+
+
+invoked via the lambda page in console
