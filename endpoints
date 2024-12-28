@@ -1,0 +1,32 @@
+[
+  {
+    "LogicalResourceId": "ServerlessRestApi",
+    "PhysicalResourceId": "n9mabr7aof",
+    "CloudEndpoint": [
+      "https://n9mabr7aof.execute-api.us-east-1.amazonaws.com/Prod",
+      "https://n9mabr7aof.execute-api.us-east-1.amazonaws.com/Stage"
+    ],
+    "Methods": [
+      "/['post', 'get']",
+      "/{id}['get']"
+    ]
+  },
+  {
+    "LogicalResourceId": "getAllItemsFunction",
+    "PhysicalResourceId": "sam-app-serverless-api-getAllItemsFunction-PEWeQiPeS0J4",
+    "CloudEndpoint": "-",
+    "Methods": "-"
+  },
+  {
+    "LogicalResourceId": "getByIdFunction",
+    "PhysicalResourceId": "sam-app-serverless-api-getByIdFunction-kTGA06HqVngU",
+    "CloudEndpoint": "-",
+    "Methods": "-"
+  },
+  {
+    "LogicalResourceId": "putItemFunction",
+    "PhysicalResourceId": "sam-app-serverless-api-putItemFunction-rUKAaPgHfi7v",
+    "CloudEndpoint": "-",
+    "Methods": "-"
+  }
+]
